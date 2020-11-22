@@ -1,0 +1,21 @@
+.dashboard{
+  width: 90%;
+  margin: 40px auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color:#FCFCFC ;
+  background-image: url('../../Assets/background.png');
+
+  @media (min-width:1024px) {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    &__value{
+      padding: 0;
+      margin: 0;
+    }
+    &__graphic{
+      width: 50vw;
+    }
+  }
+}

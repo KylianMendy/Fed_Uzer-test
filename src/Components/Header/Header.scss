@@ -1,0 +1,13 @@
+.header{
+  width: 90vw;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (min-width:1024px) {
+    img{
+      width: 100px;
+    }
+  }
+}
