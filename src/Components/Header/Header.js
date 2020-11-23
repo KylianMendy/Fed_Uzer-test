@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from '../../Assets/Logo.png'
-import Profile from '../../Assets/Profile.png'
 import '../Header/Header.scss'
 
 function Header() {

@@ -1,5 +1,10 @@
 .valid{
-  .incorrect{
-    display: none;
+  width: 12px;
+
+  @media (min-width:768px) {
+    width: 20px;
   }
+}
+.incorrect{
+  display: none;
 }

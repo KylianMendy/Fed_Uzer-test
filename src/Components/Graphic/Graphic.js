@@ -27,9 +27,6 @@ function Graphic(props) {
           data={data}
           options={options}
         />
-        <p className='graphic__note'>Le pourcentage de recyclage des déchets de 2010 a 2020 a augmenté de 85%. Ce progrès est significatif de changements radicaux dans la habitudes des consommateurs 
-        </p>
-        <button className='graphic__button'>Sauvegarder</button>
     </div>
   )
   
